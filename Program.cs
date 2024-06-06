@@ -56,7 +56,9 @@ namespace ProjectArchive
             {
                 var displayDots = (i == startIndex && i != 0) || (i == endIndex && i != projectList.Count - 1);
                 var startTime = DateTime.UnixEpoch.AddSeconds(projectList[i].Details?.TimeStart ?? 0);
-                var infoText = displayDots ? "..." : $"{i} - {projectList[i].Details?.Name ?? projectList[i].Type.Name} ({startTime:d})";
+                var endTime = DateTime.UnixEpoch.AddSeconds(projectList[i].Details?.TimeEnd ?? 0);
+
+                var infoText = displayDots ? "..." : $"{i} - {projectList[i].Details?.Name ?? projectList[i].Type.Name} ({startTime:d} - {endTime:d})";
 
                 textBuilder.Append($"\n {(i == index ? ">" : " ")} {infoText}");
             }
