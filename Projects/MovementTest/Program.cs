@@ -3,7 +3,7 @@
 namespace ProjectArchive.Projects.MovementTest
 {
     [Project("Movement Test", 1, 1, "Movement test for U# 2.5D Minecraft, unknown creation time")]
-    public class Program : IProject
+    internal class Program : IProject
     {
         enum MoveType { idle, moving, placing }
 
