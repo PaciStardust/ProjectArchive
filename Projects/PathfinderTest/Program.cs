@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive.Projects.PathfinderTest
+﻿namespace ProjectArchive.Projects.PathfinderTest
 {
-    [Project("Pathfinder Test", 1, 1, "Pathfinding test for an unreleased project")]
+    [Project("Pathfinder Test", 1, 1, "Pathfinding test for an unreleased project, unknown creation time")]
     internal class Program : IProject
     {
         static readonly int size = 9;
