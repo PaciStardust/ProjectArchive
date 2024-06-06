@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive
+﻿namespace ProjectArchive
 {
     [AttributeUsage(AttributeTargets.Class)]
     internal class ProjectAttribute(string name, ulong timeStart, ulong timeEnd, string description) : Attribute

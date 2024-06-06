@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive.Projects.AstroneerAnniversaryCalc
+﻿namespace ProjectArchive.Projects.AstroneerAnniversaryCalc
 {
     [Project("Astroneer Anniversary Item Calculator", 1711753200, timeEnd: 1711753200, "Calculator for required items for astroneer recipes from the birthday event")]
     internal class Program : IProject

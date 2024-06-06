@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive.Projects.ConsoleSweeper
+﻿namespace ProjectArchive.Projects.ConsoleSweeper
 {
     [Project("Console Sweeper", 1631138400, 1632088800, "A minesweeper game in console")]
     internal class Program : IProject

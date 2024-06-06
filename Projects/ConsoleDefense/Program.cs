@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive.Projects.ConsoleDefense
+﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
     [Project("Console Defense", 1631656800, 1631829600, "Prototype for a console based TD game - WASD to move, ENTER to build, ESC to play round")]
     internal class Program : IProject

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ProjectArchive.Projects.TestingGameOfLife
+﻿namespace ProjectArchive.Projects.TestingGameOfLife
 {
     [Project("Testing Game Of Life", 1630965600, 1631052000, "Minesweeper from game of life")]
     class Program : IProject
