@@ -1,7 +1,7 @@
 ﻿namespace ProjectArchive.Projects.TestingMinesweeper
 {
     [Project("Testing Minesweeper", 1631052000, 1631138400, "Minesweeper from test project")]
-    class Program : IProject
+    internal class Program : IProject
     {
         //TODO:
         // - Difficulties

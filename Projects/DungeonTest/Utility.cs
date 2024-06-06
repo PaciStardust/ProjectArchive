@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class Utility
+    internal static class Utility
     {
         public static List<char> CharacterWhitelist = new List<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ' ', '-', '_' };
         public static string MapBorder;
@@ -35,12 +35,12 @@
         }
     }
 
-    static class Symbol //I hope this class gets more use
+    internal static class Symbol //I hope this class gets more use
     {
         public static char Box = '\u2588';
     }
 
-    struct Vector2 //Vector 2 to make my life easier
+    internal struct Vector2 //Vector 2 to make my life easier
     {
         public int Y { get; set; }
         public int X { get; set; }
@@ -52,7 +52,7 @@
         }
     }
 
-    enum Direction
+    internal enum Direction
     {
         North,
         East,

@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    class Game
+    internal class Game
     {
         //Refs
         private Tower[,] Towers;

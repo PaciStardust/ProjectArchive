@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    static class Graphics
+    internal static class Graphics
     {
         private static char[,] Display;
         private static Int2D Size;

@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.TestingMinesweeper
 {
-    static class Graphics
+    internal static class Graphics
     {
         private static readonly Dictionary<char, string> UniDict = new Dictionary<char, string>
         {

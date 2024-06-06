@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    abstract class MapTile_Base //Implements basics
+    internal abstract class MapTile_Base //Implements basics
     {
         public string Name { get; set; }
         public char Icon { get; set; }
@@ -68,7 +68,7 @@
         }
     }
 
-    class MapTile_Plains : MapTile_Base
+    internal class MapTile_Plains : MapTile_Base
     {
         public MapTile_Plains(Vector2 size)
         {

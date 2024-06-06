@@ -362,7 +362,7 @@
         }
     }
 
-    class Minefield
+    internal class Minefield
     {
         //PERMANENT VALUES
         private readonly string Name;

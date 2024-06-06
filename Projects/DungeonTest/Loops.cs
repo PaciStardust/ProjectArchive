@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class Loops
+    internal static class Loops
     {
         public static void CreateWorld() //Asks for worldname and then inits world
         {

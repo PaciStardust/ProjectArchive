@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    class Slot //Class used for storage arrays
+    internal class Slot //Class used for storage arrays
     {
         public Item_Base Item { get; set; }
         public int Amount { get; set; }
@@ -27,7 +27,7 @@
         }
     }
 
-    static class Storage
+    internal static class Storage
     {
         public static void ListLoop(string name, Slot[] array) //Lists all items in pages of 12 and lets you move around with cursor
         {

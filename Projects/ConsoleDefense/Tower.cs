@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    abstract class Tower
+    internal abstract class Tower
     {
         public string Name;
         public string Description;
@@ -18,7 +18,7 @@
         }
     }
 
-    class Tower_AllDamage : Tower
+    internal class Tower_AllDamage : Tower
     {
         public Tower_AllDamage(string name, string desc, string[] appear, int range, int damage, int cooldown)
         {
@@ -54,7 +54,7 @@
         }
     }
 
-    class Tower_SingleTarget : Tower
+    internal class Tower_SingleTarget : Tower
     {
         private int Shots;
         private bool Multi;
@@ -107,7 +107,7 @@
         }
     }
 
-    class Tower_MultiTarget : Tower
+    internal class Tower_MultiTarget : Tower
     {
         private int MaxTargets;
 
@@ -152,7 +152,7 @@
         }
     }
 
-    static class ListTowers
+    internal static class ListTowers
     {
         public static readonly Tower_SingleTarget Turret_Simple = new Tower_SingleTarget("Simple Turret", " > 1 Damage\n > 2 Ticks\n > 6 Range", new string[] { "░│░", "─O─", "░│░" }, 6, 1, 1, 1, false);
     }

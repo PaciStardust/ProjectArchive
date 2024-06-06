@@ -1,7 +1,7 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
     //Static player class
-    static class Player
+    internal static class Player
     {
         public static Vector2 Pos;
         public static Vector2 WorldPos;

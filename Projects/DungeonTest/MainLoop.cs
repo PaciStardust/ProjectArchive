@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class MainLoop
+    internal static class MainLoop
     {
         public static void StartLoop()
         {

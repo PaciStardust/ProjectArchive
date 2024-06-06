@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class Items
+    internal static class Items
     {
         public static Item_Tile none = new Item_Tile("Empty", ItemType.None, 0, false, ' ', ItemRarity.Common, "Nothing here.");
 

@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class World //Stores all world info
+    internal static class World //Stores all world info
     {
         public static string Name;
         public static int DayCount; //Unused

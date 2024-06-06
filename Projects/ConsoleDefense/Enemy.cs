@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    abstract class Enemy
+    internal abstract class Enemy
     {
         public string Appearance;
         public Int2D Heading;
@@ -33,7 +33,7 @@
         }
     }
 
-    class Enemy_Basic : Enemy
+    internal class Enemy_Basic : Enemy
     {
         public Enemy_Basic(string appear, int health, int speed, Int2D pos, Int2D heading)
         {

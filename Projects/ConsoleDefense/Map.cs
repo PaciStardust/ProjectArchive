@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    class Map
+    internal class Map
     {
         public string Name { get; }
         public int StartMoney { get; }

@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.ConsoleDefense
 {
-    enum TileTag
+    internal enum TileTag
     {
         EnemyPath,
         EnemyPathTurnUp,
@@ -12,7 +12,7 @@
         Unplacable
     }
 
-    class MapTile
+    internal class MapTile
     {
         public string Name { get; }
         public string[] Appearance { get; }
@@ -26,7 +26,7 @@
         }
     }
 
-    static class MTL //Maptilelist
+    internal static class MTL //Maptilelist
     {
         public static readonly MapTile Rubble = new MapTile("Rubble", TileTag.Unplacable, new string[] { "▓▓▓", "▓▓▓", "▓▓▓" });
         public static readonly MapTile Floor = new MapTile("Floor", TileTag.Placable, new string[] { "░░░", "░░░", "░░░" });

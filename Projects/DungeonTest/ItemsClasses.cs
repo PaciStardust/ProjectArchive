@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    enum ItemType
+    internal enum ItemType
     {
         None, //DEBUG
 
@@ -9,14 +9,14 @@
         Axe
     }
 
-    enum ItemRarity
+    internal enum ItemRarity
     {
         Common,
         Uncommon,
         Rare
     }
 
-    abstract class Item_Base //Add a use function
+    internal abstract class Item_Base //Add a use function
     {
         public string Name { get; set; }
         public char Icon { get; set; }
@@ -37,7 +37,7 @@
         public abstract void Use(Vector2 target);
     }
 
-    class Item_Tile : Item_Base
+    internal class Item_Tile : Item_Base
     {
         public int RequiredStrength { get; }
         public ItemType RequiredTool { get; }
@@ -76,7 +76,7 @@
         }
     }
 
-    class Item_Tool : Item_Base
+    internal class Item_Tool : Item_Base
     {
         public int Strength { get; }
 

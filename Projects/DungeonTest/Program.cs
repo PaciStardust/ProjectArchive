@@ -1,7 +1,7 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
     [Project("Dungeon Test", 1629756000, 1630706400, "A simple dungeon game")]
-    class Program : IProject
+    internal class Program : IProject
     {
         public void Run()
         {

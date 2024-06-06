@@ -1,6 +1,6 @@
 ﻿namespace ProjectArchive.Projects.DungeonTest
 {
-    static class Graphics
+    internal static class Graphics
     {
         private static char[,] printText;
         private readonly static Vector2 size = new Vector2(25, 100);
