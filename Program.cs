@@ -76,7 +76,7 @@ namespace ProjectArchive
                 var startTime = DateTime.UnixEpoch.AddSeconds(reflectionInfo.Details?.TimeStart ?? 0);
                 var endTime = DateTime.UnixEpoch.AddSeconds(reflectionInfo.Details?.TimeEnd ?? 0);
 
-                Console.WriteLine($"Name: {reflectionInfo.Details?.Name ?? reflectionInfo.Type.Name}\n\nTime: {startTime:d} - {endTime:d}\nInfo: {reflectionInfo.Details?.Description ?? "None"}");
+                Console.WriteLine($"Name: {reflectionInfo.Details?.Name ?? reflectionInfo.Type.Name}\nTime: {startTime:d} - {endTime:d}\nInfo: {reflectionInfo.Details?.Description ?? "None"}");
                 var key = Console.ReadKey().Key;
 
                 if (key == ConsoleKey.Enter)
